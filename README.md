@@ -21,6 +21,28 @@
 ![loss_plot_Rprop.png](loss_plot_Rprop.png)
 ![loss_plot_SGD.png](loss_plot_SGD.png)
 
+# Задание 3 
+
+Оптимизация гиперпараметров с помощью optune.
+
+Датасет FashionMnist был заменен на датасет CIFAR-10
+
+Поиск должен был осуществляться по данным гиперпараметра: ("dropout", 0.2, 0.5) ; ("optimizer", ["Adam", "RMSprop", "SGD"])
 
 
-
+Вывод консоли:
+```Study statistics: 
+  Number of finished trials:  46
+  Number of pruned trials:  35
+  Number of complete trials:  11
+Best trial:
+  Value:  0.53359375
+  Params: 
+    n_layers: 2
+    n_units_l0: 256
+    dropout_l0: 0.30550577988150257
+    n_units_l1: 365
+    dropout_l1: 0.30404827709049087
+    optimizer: Adam
+    lr: 0.00343815733716052
+```
