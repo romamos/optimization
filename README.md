@@ -16,6 +16,7 @@ SGD:
 Rprop Подходит для более длительного обучения 
 
 ![loss_plot_Rprop.png](loss_plot_Rprop.png)
+
 ![loss_plot_SGD.png](loss_plot_SGD.png)
 
 !
